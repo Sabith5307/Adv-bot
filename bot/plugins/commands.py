@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = @MoviesTalkies23,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('🤩JOIN GROUP🤩', url='https://t.me/MoviesTalkies23'),
+        InlineKeyboardButton('😍JOIN CHANNEL😍', url ='https://t.me/puththanpadam_ott ')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('😎CREATOR😎', url='https://t.me/MALAYALI3938')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
